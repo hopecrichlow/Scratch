@@ -1,9 +1,9 @@
 .octodex{
-  max-width: 2000px;
+  max-width: 900px;
   max-height: 600px;
   margin: 50px;
-  border: 5px solid gray;
-  padding: 5px;
+  border: 2px solid gray;
+  padding: 10px;
   position: relative;
   display: inline-block;
   overflow: auto;
@@ -14,7 +14,8 @@
   box-sizing: border-box;
   display: inline-block;
   max-width: 33.33%;
-  float: left;}
+  float: left;
+  vertical-align: center;}
 
 .octocat img{
   margin: 10px:;
@@ -28,7 +29,7 @@ div .image-footer {
   height: 50px;
   display: inline-block;
   overflow: visible;
-  position:relative;
+  position: relative;
 }
 
 div .image-number {
@@ -56,6 +57,12 @@ div .image-caption a{
 
 div .image-caption span{
   color: #757072;
+}
+
+.octocat:after{
+  content: "";
+  display: inline-block;
+  
 }
 
 .authors {
