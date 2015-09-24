@@ -1,3 +1,18 @@
+
+div .image-caption {
+  float:right;
+  display:inline-block;
+  text-align: center;
+}
+
+div .image-caption a{}
+
+div .image-caption span{}
+
+/*.authors ul doesn't have visible content*/
+
+/* assigning .authors li makes thumbnails big again making .authors img ineffective*/
+
 .authors img{
   max-width: 50px;
   float: right;
