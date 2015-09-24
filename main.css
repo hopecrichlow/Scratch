@@ -1,3 +1,9 @@
+.image-footer {
+  border: 2px solid;
+  height: 50px;
+  overflow: visible;
+}
+
 .image-number {
   color: #c6c6c6;
 }
@@ -7,10 +13,12 @@
 }
 
 div .image-caption {
-  float:right;
-  display:inline-block;
   text-align: center;
-}
+  line-height: 10px;
+  margin-top: 10px;
+  float:right;
+  text-align: center;
+} /* come back to this madness*/
 
 div .image-caption a{
   color: #3a3a45;
