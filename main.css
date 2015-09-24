@@ -1,4 +1,11 @@
-.image-footer {
+.octocat img{
+  max-width: 150px;
+  display: inline-block;
+  border: 1px solid #c6c6c6;
+  position: relative;
+  }
+
+  .image-footer {
   border: 2px solid;
   height: 50px;
   overflow: visible;
