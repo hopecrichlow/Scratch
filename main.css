@@ -1,17 +1,37 @@
-.octocat img{
-  max-width: 150px;
-  display: inline-block;
-  border: 1px solid #c6c6c6;
+.octodex{
+  max-width: 2000px;
+  max-height: 600px;
+  margin: 50px;
+  border: 5px solid gray;
+  padding: 5px;
   position: relative;
-  }
-
-  .image-footer {
-  border: 2px solid;
-  height: 50px;
-  overflow: visible;
+  display: inline-block;
+  overflow: auto;
 }
 
-.image-number {
+.octocat{ 
+  margin: :10px;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 33.33%;
+  float: left;}
+
+.octocat img{
+  margin: 10px:;
+  max-width: 200px;
+  display: inline-block;
+  border: 1px solid #c6c6c6;
+  }
+
+div .image-footer {
+  border: 2px solid;
+  height: 50px;
+  display: inline-block;
+  overflow: visible;
+  position:relative;
+}
+
+div .image-number {
   color: #c6c6c6;
 }
 
@@ -20,11 +40,14 @@
 }
 
 div .image-caption {
+  /* width*/
   text-align: center;
   line-height: 10px;
-  margin-top: 10px;
-  float:right;
-  text-align: center;
+  padding-top: 10px;
+  float: right;
+  display: inline-block;
+  border-sizing: border-box;
+  position: relative;
 } /* come back to this madness*/
 
 div .image-caption a{
@@ -35,11 +58,15 @@ div .image-caption span{
   color: #757072;
 }
 
-/*.authors ul doesn't have visible content*/
+.authors {
+  display: inline-block;
+}
 
 /* assigning .authors li makes thumbnails big again making .authors img ineffective*/
 
 .authors img{
-  max-width: 50px;
+  max-width: 40px;
   float: right;
+  margin-top: 5px;
+  border-radius: 7px;
 }
