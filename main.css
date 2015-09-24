@@ -1,3 +1,10 @@
+.image-number {
+  color: #c6c6c6;
+}
+
+.image-number:before {
+  content:"#";
+}
 
 div .image-caption {
   float:right;
@@ -5,9 +12,13 @@ div .image-caption {
   text-align: center;
 }
 
-div .image-caption a{}
+div .image-caption a{
+  color: #3a3a45;
+}
 
-div .image-caption span{}
+div .image-caption span{
+  color: #757072;
+}
 
 /*.authors ul doesn't have visible content*/
 
